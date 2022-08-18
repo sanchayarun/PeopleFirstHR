@@ -44,15 +44,15 @@ public class EmployeeControllerUnitTest {
 		
 		// Create an object to check the response
 		Employee response = new Employee(2L, "Emily", "Bradfield", "emily.bradfield@outlook.com", "07312345679");
-		String responseAsJSON = mapper.writeValueAsString(response);
+//		String responseAsJSON = mapper.writeValueAsString(response);
 		
 		Mockito.when(service.create(entry)).thenReturn(response);
 		
 		mvc.perform(post("/employee/create")
 				.contentType(MediaType.APPLICATION_JSON)
 				.content(entryAsJSON))
-				.andExpect(content().json(responseAsJSON));
-//				.andExpect(status().isCreated());			
+//				.andExpect(content().json(responseAsJSON));
+				.andExpect(status().isCreated());			
 		
 	}
 	
@@ -141,15 +141,15 @@ public class EmployeeControllerUnitTest {
 		String entryAsJSON = mapper.writeValueAsString(entry);
 		
 		Employee response = new Employee(1L, "Sanchayan", "Arun", "sanchayan.arudchelvam@gmail.com", "07716665551");
-		String responseAsJSON = mapper.writeValueAsString(response);
+//		String responseAsJSON = mapper.writeValueAsString(response);
 		
 		Mockito.when(service.update(1L, entry)).thenReturn(response);
 		
 		mvc.perform(put("/employee/update/1")
 				.contentType(MediaType.APPLICATION_JSON)
 				.content(entryAsJSON))
-				.andExpect(content().json(responseAsJSON));
-//				.andExpect(status().isOk());	
+//				.andExpect(content().json(responseAsJSON));
+				.andExpect(status().isOk());	
 	}
 	
 
