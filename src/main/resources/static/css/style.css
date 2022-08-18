@@ -1,0 +1,44 @@
+
+#formDiv {
+    /* border: 2px solid black; */
+    display: inline-grid;
+    width: 25%;
+    margin-left: 2%;
+    padding: 10px;
+}
+
+#resultsDiv {
+    /* border: 2px solid black; */
+    display: inline-grid;
+    width: 70%;
+    margin-left: 2%;
+    margin-top: 5%;
+}
+
+.printParent{
+    padding-left: 20% ;
+}
+
+
+.printDiv {
+    border: solid;
+    border-radius: 5px;
+    border-width: 2px;
+    margin: auto;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    width: 60%;
+    text-align: center;
+    background-color: aquamarine;
+    display: inline-grid;
+}
+
+#idInput {
+    width: 20%;
+    display: inline;
+}
+
+.btn-sm {
+    margin-left: 5px;
+}
+
