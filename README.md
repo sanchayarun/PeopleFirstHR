@@ -71,6 +71,8 @@ Steps to download and run the web application on local machine after required pr
   ```
   ![](Documentation/Screenshots/Readme/LandingPage.png)
   
+  Here you can create, read, update and delete employees within the system.
+  
   ## Running the tests
 
 To run the tests open the project in Eclipse
