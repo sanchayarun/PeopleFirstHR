@@ -3,7 +3,7 @@ Coverge: 95.8%
 # PeopleFirstHR
 QA - Project
 
-The PeoplFirst-HR employee management web application can keep track of current employees and their contact detils. The Web Application has full CRUD functionality.
+The PeoplFirst-HR employee management web application can keep track of current employees and their contact details. The Web Application has full CRUD functionality.
 
 
 ## Getting Started
@@ -24,7 +24,7 @@ Installations required to run web-application on local machine.
 
 ### Prerequisites for Development & Testing
 
-Installation Requirements for Development & Testing
+Installations required for Development & Testing
 
 ```
 - Install Git Bash to push updates from your local respository to the Remote Github repository
