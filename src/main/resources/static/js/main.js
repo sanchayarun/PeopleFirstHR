@@ -146,6 +146,9 @@ let validateCreate = () => {
     } else if (emailInput.value === "") {
         alert("Check First Name, Last Name, Email and Mobile fields have been entered");
         return false;
+    } else if (mobileInput.value === "") {
+        alert("Check First Name, Last Name, Email and Mobile fields have been entered");
+        return false;
     } else {
         return true;
     }
@@ -165,10 +168,13 @@ let validateUpdate = () => {
     } else if (idInput.value === "") {
         alert("Check First Name, Last Name, Email, Mobile and ID fields have been entered");
         return false;
-    } else {
-        return true;
+    } else if (mobileInput.value === "") {
+        alert("Check First Name, Last Name, Email and Mobile fields have been entered");
+        return false;
+    }else {
+            return true;
+        }
     }
-}
 
 
 
