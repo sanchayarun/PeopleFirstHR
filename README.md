@@ -8,7 +8,7 @@ The PeoplFirst-HR employee management web application can keep track of current 
 
 ## Getting Started
 
-These instructions will get you a copy of the web pplication up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the web application up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ### Prerequisites for Deployment
 
@@ -57,10 +57,11 @@ Steps to download and run the web application on local machine after required pr
  #### Step two 
  Open a new terminal console in the root folder of cloned repository.
  Enter the following command in to the terminal: java -jar PeopleFirstHR-0.0.1-SNAPSHOT.jar
+ The application shouldrun in the terminallike below.
   ```
   java -jar PeopleFirstHR-0.0.1-SNAPSHOT.jar
   ```
-
+![](Documentation/Screenshots/Readme/Terminal.png)
  #### Step three 
  The API is running in the background.
  Open a browser and type the following url: http://localhost:8080/index.html
@@ -68,3 +69,50 @@ Steps to download and run the web application on local machine after required pr
   ```
   http://localhost:8080/index.html
   ```
+  ![](Documentation/Screenshots/Readme/LandingPage.png)
+  
+  ## Running the tests
+
+To run the tests open the project in Eclipse
+Right click on the project folder PeopleFirstHR, then click Coverage As JUnit test. This will run all the tests done in the project.
+
+![](Documentation/Screenshots/Readme/Testing.png)
+
+### Unit Tests 
+
+Unit tests are performed on the smaller and individual units of the application such as classes and methods are tested for proper operation.
+
+These unit tests were done on EmployeeService
+
+![](Documentation/Screenshots/Readme/UnitTest.png)
+
+### Integration Tests 
+Integration tests are tests that involves disk access, application service and/or frameworks from the target application. So multiple components of the application are being used for the test and to check if they are all interacting properly.
+
+These integration tests were done on EmployeeController
+
+![](Documentation/Screenshots/Readme/IntegrationTest.png)
+
+## Built With
+
+* [Maven](https://maven.apache.org/) - Dependency Management
+
+## Versioning
+
+We use [GitHub](https://github.com) for versioning.
+
+## Authors
+* **Sanchayan Arudchelvam** - *Web Application* - [SanchayArun](https://github.com/sanchayarun)
+
+
+## License
+
+This project is licensed under the MIT license - see the [LICENSE.md](LICENSE.md) file for details 
+
+*For help in [Choosing a license](https://choosealicense.com/)*
+
+## Acknowledgments
+
+* Jordan Benbelaid - Trainer 
+* Anoush Lowton - Trainer
+
